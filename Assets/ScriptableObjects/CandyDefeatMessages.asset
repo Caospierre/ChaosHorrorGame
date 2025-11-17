@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9caff3a7f33be7d45b6a9e71c3643b5f, type: 3}
+  m_Name: CandyDefeatMessages
+  m_EditorClassIdentifier: 
+  messages:
+  - you've unlocked: Candy Debt. interest accrues in jawbreakers.
+  - negative candy detected. the lollipop guild has filed a complaint.
+  - you ate on credit. the gummy bears are repo'ing your shoes.
+  - sub-zero sweets. even ants are sending you invoices.
+  - you've reached Diabetic Insolvency. press [pay with shame].
+  - less than zero candy. more than enough regret.
+  - congrats! you invented anti-candy. sadly, it still tastes like loss.
+  - your wallet is now a piñata. swing at your finances to continue.
+  - the candy fairy tried to visit, but you bounced her card.
+  - you're sugar-broke. the jawbreakers are breaking up with you.
+  - account overdrawn. lollipops turned into IOU-pops.
+  - you owe 5 candy. the licorice lads are 'licorice-taking' your stuff.
+  - negative sweets spotted. cavity collectors en route.
+  - you've hit rock bottom… and it's made of stale taffy.
+  - warning: sweet deficit. please insert childhood joy to continue.
+  - no candy left. you now sustain yourself on memories of halloween.
+  - bankruptcy filed under 'C' for candy. assets: one sticky pocket.
+  - anti-sugar levels critical. cotton candy reclassifies as cotton.
+  - you're so in the red, the skittles think you're one of them.
+

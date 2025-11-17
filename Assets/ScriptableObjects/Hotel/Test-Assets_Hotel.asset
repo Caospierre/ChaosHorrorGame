@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 960d47fb9fcbb414183a254c8c05cf1a, type: 3}
+  m_Name: Test-Assets_Hotel
+  m_EditorClassIdentifier: Assembly-CSharp::HotelSO
+  totalFloors: 5
+  roomsPerFloor: 6
+  goodRoomRatio: 0.7
+  requiredKeypadParts: 3
+  candyRange: {x: 3, y: 5}
+  goodRoomPool:
+  - {fileID: 11400000, guid: 6e79111d24dedd440bd183f66b8d5f2f, type: 2}
+  - {fileID: 11400000, guid: 50d3c04d2a6cf8f47a5f3810a761a3c4, type: 2}
+  - {fileID: 11400000, guid: 9122345bdcca2b546b461bdc0c982aa3, type: 2}
+  - {fileID: 11400000, guid: fa9c74a4b6e37d24ba4f3148ea6f6052, type: 2}
+  - {fileID: 11400000, guid: fcd1576021939f64d8e845455b3f8b94, type: 2}
+  - {fileID: 11400000, guid: ddc14e7e28a8fb043868de0ff388ac82, type: 2}
+  - {fileID: 11400000, guid: 455d771e4552f7b4d98aaa8c4142fc6f, type: 2}
+  - {fileID: 11400000, guid: 9acefbea14953f04292f22050f7b965f, type: 2}
+  - {fileID: 11400000, guid: ed3ac5c9668133845b55d1efc2a074e0, type: 2}
+  - {fileID: 11400000, guid: 0069fbbc27c47cd4e9ac0fbf7a81fd12, type: 2}
+  - {fileID: 11400000, guid: 698e358c2c71eed4ba79730ccc442e96, type: 2}
+  - {fileID: 11400000, guid: bd337ae0f0cfd3145887fde3d9bc5896, type: 2}
+  - {fileID: 11400000, guid: 418884e03c8a9664bb8163d5932c0739, type: 2}
+  - {fileID: 11400000, guid: a33840e8468c3d544b1673b785e8a6e6, type: 2}
+  - {fileID: 11400000, guid: 67a1672cb973f07468be966afedb620f, type: 2}
+  - {fileID: 11400000, guid: 580defa42ae3e7c46b47db84f66ce7a0, type: 2}
+  - {fileID: 11400000, guid: d443c0f82101ed3499d4d6b1aa5cd91f, type: 2}
+  - {fileID: 11400000, guid: 1ca69f861180b194eb2a316c44ca86ac, type: 2}
+  - {fileID: 11400000, guid: cbea6dd8035348f40845ff2ae20e28c3, type: 2}
+  - {fileID: 11400000, guid: 97634d8e9bedc334688bb30dc8d35969, type: 2}
+  - {fileID: 11400000, guid: 4634f47b1c8be9948be8b91f82d6462e, type: 2}
+  - {fileID: 11400000, guid: 795c3c0df04e2eb41835e9f9f4ff05d6, type: 2}
+  - {fileID: 11400000, guid: 64aa2e3c5feeebd48a00e878430faaae, type: 2}
+  - {fileID: 11400000, guid: 3818d7eb09ff7bf4eb0a68a95c9f2863, type: 2}
+  - {fileID: 11400000, guid: 56d93a48e5c09ca41be29e6d685cbd8e, type: 2}
+  - {fileID: 11400000, guid: ba8e093c590dd564fadb11dc71e429d6, type: 2}
+  badRoomPool:
+  - {fileID: 11400000, guid: 1f10df716a148774fa1188e123d2cd99, type: 2}
+  - {fileID: 11400000, guid: c9e9469c3fb060a478069a4e8cf22880, type: 2}
+  - {fileID: 11400000, guid: 4141fb2a36eb06a4994275d7a88f9d6d, type: 2}
+  - {fileID: 11400000, guid: 0f5e03ef50143684dbe840328034ef85, type: 2}
+  - {fileID: 11400000, guid: 4231fe4136657a8469179ded9de7633f, type: 2}
+  - {fileID: 11400000, guid: 4818553346c219545a8fc56c8a42a607, type: 2}
+  - {fileID: 11400000, guid: 82c56c7cf0458054a8098276e21deffa, type: 2}
+  - {fileID: 11400000, guid: 791c6394c70b8e14ba66cb5fa465d3ce, type: 2}
+  - {fileID: 11400000, guid: c49a121ec0bc0e04595ec837d1e2e46c, type: 2}
+  - {fileID: 11400000, guid: 2feddb32af738ec46b85be9b42c056d6, type: 2}
+  - {fileID: 11400000, guid: 08612f26704e44e4392a7f5cd882f76e, type: 2}
+  - {fileID: 11400000, guid: 30d472d0e5789474e9a83df8c1bb8978, type: 2}
+  - {fileID: 11400000, guid: 1ef9ca92e0480534e9938ccf677256c9, type: 2}
+  - {fileID: 11400000, guid: 266a03821502ed54182e4cd1b512595c, type: 2}
+  - {fileID: 11400000, guid: 705a24f2440ff304f8766e305c91ceac, type: 2}
+  assertClueRatio: 0.15
+  adjacentClueRatio: 0.15
+  amongSetClueRatio: 0.15
+  rangeClueRatio: 0.15
+  xorClueRatio: 0.3
+  codeSumClueRatio: 0.1

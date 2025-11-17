@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6759263157886645006
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3994775428043377902}
+  - component: {fileID: 1824404613930723827}
+  - component: {fileID: 4535524374691945263}
+  m_Layer: 0
+  m_Name: Lurking Monster - Big Monster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3994775428043377902
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6759263157886645006}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 216879449387562468}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1824404613930723827
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6759263157886645006}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3, z: 3}
+  m_Center: {x: 0, y: 1, z: 1}
+--- !u!114 &4535524374691945263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6759263157886645006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5b4ff4da3c18f7499e327c4ff39eaa3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LurkingMonster
+  destroyedComponent: {fileID: 597098694296448862}
+  animator: {fileID: 1877537314053154331}
+--- !u!1001 &7085411776760056423
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3994775428043377902}
+    m_Modifications:
+    - target: {fileID: 7014060433081696131, guid: 3d1b5b5a3f2b4d14e96137dc8366a2a5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7014060433081696131, guid: 3d1b5b5a3f2b4d14e96137dc8366a2a5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7014060433081696131, guid: 3d1b5b5a3f2b4d14e96137dc8366a2a5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7014060433081696131, guid: 3d1b5b5a3f2b4d14e96137dc8366a2a5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7014060433081696131, guid: 3d1b5b5a3f2b4d14e96137dc8366a2a5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7014060433081696131, guid: 3d1b5b5a3f2b4d14e96137dc8366a2a5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7014060433081696131, guid: 3d1b5b5a3f2b4d14e96137dc8366a2a5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7014060433081696131, guid: 3d1b5b5a3f2b4d14e96137dc8366a2a5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7014060433081696131, guid: 3d1b5b5a3f2b4d14e96137dc8366a2a5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7014060433081696131, guid: 3d1b5b5a3f2b4d14e96137dc8366a2a5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7646305545980519737, guid: 3d1b5b5a3f2b4d14e96137dc8366a2a5, type: 3}
+      propertyPath: m_Name
+      value: BigMonster
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7646305545980519737, guid: 3d1b5b5a3f2b4d14e96137dc8366a2a5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1877537314053154331}
+    - targetCorrespondingSourceObject: {fileID: 7646305545980519737, guid: 3d1b5b5a3f2b4d14e96137dc8366a2a5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5845347594102701759}
+  m_SourcePrefab: {fileID: 100100000, guid: 3d1b5b5a3f2b4d14e96137dc8366a2a5, type: 3}
+--- !u!4 &216879449387562468 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7014060433081696131, guid: 3d1b5b5a3f2b4d14e96137dc8366a2a5, type: 3}
+  m_PrefabInstance: {fileID: 7085411776760056423}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &597098694296448862 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7646305545980519737, guid: 3d1b5b5a3f2b4d14e96137dc8366a2a5, type: 3}
+  m_PrefabInstance: {fileID: 7085411776760056423}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1877537314053154331
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 597098694296448862}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &5845347594102701759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 597098694296448862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 839dabc66e6a7984d936771e24c63a04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimEventRelay
+  target: {fileID: 0}

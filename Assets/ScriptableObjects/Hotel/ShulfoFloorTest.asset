@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 960d47fb9fcbb414183a254c8c05cf1a, type: 3}
+  m_Name: ShulfoFloorTest
+  m_EditorClassIdentifier: Assembly-CSharp::HotelSO
+  totalFloors: 3
+  roomsPerFloor: 6
+  goodRoomRatio: 0.662
+  requiredKeypadParts: 3
+  candyRange: {x: 3, y: 5}
+  goodRoomPool:
+  - {fileID: 11400000, guid: 698e358c2c71eed4ba79730ccc442e96, type: 2}
+  - {fileID: 11400000, guid: 3818d7eb09ff7bf4eb0a68a95c9f2863, type: 2}
+  - {fileID: 11400000, guid: 56d93a48e5c09ca41be29e6d685cbd8e, type: 2}
+  badRoomPool:
+  - {fileID: 11400000, guid: 4141fb2a36eb06a4994275d7a88f9d6d, type: 2}
+  - {fileID: 11400000, guid: c9e9469c3fb060a478069a4e8cf22880, type: 2}
+  - {fileID: 11400000, guid: 1ef9ca92e0480534e9938ccf677256c9, type: 2}
+  assertClueRatio: 0.205
+  adjacentClueRatio: 0.13
+  amongSetClueRatio: 0.149
+  rangeClueRatio: 0.189
+  xorClueRatio: 0.178
+  codeSumClueRatio: 0.222
